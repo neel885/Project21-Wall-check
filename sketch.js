@@ -4,7 +4,7 @@ var speed ;
 
 function setup() {
   createCanvas(1600,400);
-  bullet = createSprite(50, 200, 50, 50);
+  bullet = createSprite(50, 200, 50, 15);
   wall = createSprite(1500 , 200 , random(22,83) , height/2)
 
   speed = random(55,90);
